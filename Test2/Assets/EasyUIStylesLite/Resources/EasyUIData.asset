@@ -1,0 +1,622 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b5ddedeb87dfcd40b451a1c4ec32ae6, type: 3}
+  m_Name: EasyUIData
+  m_EditorClassIdentifier: 
+  imageList:
+  - displayOrder: 0
+    previousOrder: 0
+    styleName: Menu Background
+    maximize: 1
+    color: {r: 0.26415092, g: 0.25667495, b: 0.25667495, a: 1}
+    sprite: {fileID: 21300000, guid: 3e95c97087b4a2d41899f4abf3bce6c3, type: 3}
+    material: {fileID: 0}
+    raycastTarget: 1
+    preserveAspect: 0
+    imageType: 0
+    fillCenter: 1
+    fillMethod: 4
+    origin360: 0
+    origin180: 0
+    origin90: 0
+    originHorz: 0
+    originVert: 0
+    fillAmount: 1
+    clockwise: 1
+    syncColor: 1
+    syncSprite: 1
+    syncMaterial: 1
+    syncRaycastTarget: 1
+    syncPreserveAspect: 0
+    syncImageType: 1
+    syncFillCenter: 1
+    syncFillMethod: 1
+    syncOrigin360: 1
+    syncOrigin180: 1
+    syncOrigin90: 1
+    syncOriginHorzontal: 1
+    syncOriginVertical: 1
+    syncFillAmount: 1
+    syncClockwise: 1
+  - displayOrder: 1
+    previousOrder: 1
+    styleName: Menu Button Background
+    maximize: 1
+    color: {r: 0.14150941, g: 0.14150941, b: 0.14150941, a: 0.8392157}
+    sprite: {fileID: 21300000, guid: 3e95c97087b4a2d41899f4abf3bce6c3, type: 3}
+    material: {fileID: 0}
+    raycastTarget: 1
+    preserveAspect: 0
+    imageType: 0
+    fillCenter: 1
+    fillMethod: 4
+    origin360: 0
+    origin180: 0
+    origin90: 0
+    originHorz: 0
+    originVert: 0
+    fillAmount: 1
+    clockwise: 1
+    syncColor: 1
+    syncSprite: 1
+    syncMaterial: 1
+    syncRaycastTarget: 1
+    syncPreserveAspect: 1
+    syncImageType: 1
+    syncFillCenter: 1
+    syncFillMethod: 1
+    syncOrigin360: 1
+    syncOrigin180: 1
+    syncOrigin90: 1
+    syncOriginHorzontal: 1
+    syncOriginVertical: 1
+    syncFillAmount: 1
+    syncClockwise: 1
+  - displayOrder: 2
+    previousOrder: 2
+    styleName: Toggle Background
+    maximize: 0
+    color: {r: 0.8584906, g: 0.8584906, b: 0.8584906, a: 1}
+    sprite: {fileID: 21300000, guid: 3e95c97087b4a2d41899f4abf3bce6c3, type: 3}
+    material: {fileID: 0}
+    raycastTarget: 1
+    preserveAspect: 0
+    imageType: 0
+    fillCenter: 1
+    fillMethod: 4
+    origin360: 0
+    origin180: 0
+    origin90: 0
+    originHorz: 0
+    originVert: 0
+    fillAmount: 1
+    clockwise: 1
+    syncColor: 1
+    syncSprite: 1
+    syncMaterial: 1
+    syncRaycastTarget: 1
+    syncPreserveAspect: 1
+    syncImageType: 1
+    syncFillCenter: 1
+    syncFillMethod: 1
+    syncOrigin360: 1
+    syncOrigin180: 1
+    syncOrigin90: 1
+    syncOriginHorzontal: 1
+    syncOriginVertical: 1
+    syncFillAmount: 1
+    syncClockwise: 1
+  - displayOrder: 3
+    previousOrder: 3
+    styleName: Toggle Checkmark
+    maximize: 0
+    color: {r: 0.21698111, g: 0.21698111, b: 0.21698111, a: 1}
+    sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    material: {fileID: 0}
+    raycastTarget: 1
+    preserveAspect: 0
+    imageType: 0
+    fillCenter: 1
+    fillMethod: 4
+    origin360: 0
+    origin180: 0
+    origin90: 0
+    originHorz: 0
+    originVert: 0
+    fillAmount: 1
+    clockwise: 1
+    syncColor: 1
+    syncSprite: 1
+    syncMaterial: 1
+    syncRaycastTarget: 1
+    syncPreserveAspect: 1
+    syncImageType: 1
+    syncFillCenter: 1
+    syncFillMethod: 1
+    syncOrigin360: 1
+    syncOrigin180: 1
+    syncOrigin90: 1
+    syncOriginHorzontal: 1
+    syncOriginVertical: 1
+    syncFillAmount: 1
+    syncClockwise: 1
+  - displayOrder: 4
+    previousOrder: 0
+    styleName: Main Background
+    maximize: 0
+    color: {r: 0.4339623, g: 0.4339623, b: 0.4339623, a: 0.23529412}
+    sprite: {fileID: 21300000, guid: 9fe0959c711b97c418e832f5cd7f9932, type: 3}
+    material: {fileID: 0}
+    raycastTarget: 1
+    preserveAspect: 0
+    imageType: 0
+    fillCenter: 1
+    fillMethod: 4
+    origin360: 0
+    origin180: 0
+    origin90: 0
+    originHorz: 0
+    originVert: 0
+    fillAmount: 1
+    clockwise: 1
+    syncColor: 1
+    syncSprite: 1
+    syncMaterial: 1
+    syncRaycastTarget: 1
+    syncPreserveAspect: 1
+    syncImageType: 1
+    syncFillCenter: 1
+    syncFillMethod: 1
+    syncOrigin360: 1
+    syncOrigin180: 1
+    syncOrigin90: 1
+    syncOriginHorzontal: 1
+    syncOriginVertical: 1
+    syncFillAmount: 1
+    syncClockwise: 1
+  - displayOrder: 5
+    previousOrder: 5
+    styleName: Slider Handle
+    maximize: 0
+    color: {r: 0.4056604, g: 0.4056604, b: 0.4056604, a: 1}
+    sprite: {fileID: 21300000, guid: 3e95c97087b4a2d41899f4abf3bce6c3, type: 3}
+    material: {fileID: 0}
+    raycastTarget: 1
+    preserveAspect: 0
+    imageType: 0
+    fillCenter: 1
+    fillMethod: 4
+    origin360: 0
+    origin180: 0
+    origin90: 0
+    originHorz: 0
+    originVert: 0
+    fillAmount: 1
+    clockwise: 1
+    syncColor: 1
+    syncSprite: 1
+    syncMaterial: 1
+    syncRaycastTarget: 1
+    syncPreserveAspect: 1
+    syncImageType: 1
+    syncFillCenter: 1
+    syncFillMethod: 1
+    syncOrigin360: 1
+    syncOrigin180: 1
+    syncOrigin90: 1
+    syncOriginHorzontal: 1
+    syncOriginVertical: 1
+    syncFillAmount: 1
+    syncClockwise: 1
+  - displayOrder: 6
+    previousOrder: 0
+    styleName: Slider Background
+    maximize: 0
+    color: {r: 0.03773582, g: 0.03773582, b: 0.03773582, a: 1}
+    sprite: {fileID: 21300000, guid: 3e95c97087b4a2d41899f4abf3bce6c3, type: 3}
+    material: {fileID: 0}
+    raycastTarget: 1
+    preserveAspect: 0
+    imageType: 0
+    fillCenter: 1
+    fillMethod: 4
+    origin360: 0
+    origin180: 0
+    origin90: 0
+    originHorz: 0
+    originVert: 0
+    fillAmount: 1
+    clockwise: 1
+    syncColor: 1
+    syncSprite: 1
+    syncMaterial: 1
+    syncRaycastTarget: 1
+    syncPreserveAspect: 1
+    syncImageType: 1
+    syncFillCenter: 1
+    syncFillMethod: 1
+    syncOrigin360: 1
+    syncOrigin180: 1
+    syncOrigin90: 1
+    syncOriginHorzontal: 1
+    syncOriginVertical: 1
+    syncFillAmount: 1
+    syncClockwise: 1
+  - displayOrder: 7
+    previousOrder: 0
+    styleName: Slider Fill 1
+    maximize: 0
+    color: {r: 1, g: 0.65882355, b: 0.9490196, a: 1}
+    sprite: {fileID: 21300000, guid: 3e95c97087b4a2d41899f4abf3bce6c3, type: 3}
+    material: {fileID: 0}
+    raycastTarget: 1
+    preserveAspect: 0
+    imageType: 0
+    fillCenter: 1
+    fillMethod: 4
+    origin360: 0
+    origin180: 0
+    origin90: 0
+    originHorz: 0
+    originVert: 0
+    fillAmount: 1
+    clockwise: 1
+    syncColor: 1
+    syncSprite: 1
+    syncMaterial: 1
+    syncRaycastTarget: 1
+    syncPreserveAspect: 1
+    syncImageType: 1
+    syncFillCenter: 1
+    syncFillMethod: 1
+    syncOrigin360: 1
+    syncOrigin180: 1
+    syncOrigin90: 1
+    syncOriginHorzontal: 1
+    syncOriginVertical: 1
+    syncFillAmount: 1
+    syncClockwise: 1
+  - displayOrder: 8
+    previousOrder: 0
+    styleName: Slider Fill 2
+    maximize: 0
+    color: {r: 0.65882355, g: 0.88235295, b: 1, a: 1}
+    sprite: {fileID: 21300000, guid: 3e95c97087b4a2d41899f4abf3bce6c3, type: 3}
+    material: {fileID: 0}
+    raycastTarget: 1
+    preserveAspect: 0
+    imageType: 0
+    fillCenter: 1
+    fillMethod: 4
+    origin360: 0
+    origin180: 0
+    origin90: 0
+    originHorz: 0
+    originVert: 0
+    fillAmount: 1
+    clockwise: 1
+    syncColor: 1
+    syncSprite: 1
+    syncMaterial: 1
+    syncRaycastTarget: 1
+    syncPreserveAspect: 1
+    syncImageType: 1
+    syncFillCenter: 1
+    syncFillMethod: 1
+    syncOrigin360: 1
+    syncOrigin180: 1
+    syncOrigin90: 1
+    syncOriginHorzontal: 1
+    syncOriginVertical: 1
+    syncFillAmount: 1
+    syncClockwise: 1
+  - displayOrder: 9
+    previousOrder: 0
+    styleName: Message Background
+    maximize: 0
+    color: {r: 0.14150941, g: 0.14150941, b: 0.14150941, a: 0.88235295}
+    sprite: {fileID: 21300000, guid: 3e95c97087b4a2d41899f4abf3bce6c3, type: 3}
+    material: {fileID: 0}
+    raycastTarget: 1
+    preserveAspect: 0
+    imageType: 0
+    fillCenter: 1
+    fillMethod: 4
+    origin360: 0
+    origin180: 0
+    origin90: 0
+    originHorz: 0
+    originVert: 0
+    fillAmount: 1
+    clockwise: 1
+    syncColor: 1
+    syncSprite: 1
+    syncMaterial: 1
+    syncRaycastTarget: 1
+    syncPreserveAspect: 1
+    syncImageType: 1
+    syncFillCenter: 1
+    syncFillMethod: 1
+    syncOrigin360: 1
+    syncOrigin180: 1
+    syncOrigin90: 1
+    syncOriginHorzontal: 1
+    syncOriginVertical: 1
+    syncFillAmount: 1
+    syncClockwise: 1
+  - displayOrder: 10
+    previousOrder: 10
+    styleName: Yellow Icon
+    maximize: 0
+    color: {r: 1, g: 0.954005, b: 0.65882355, a: 1}
+    sprite: {fileID: 0}
+    material: {fileID: 0}
+    raycastTarget: 1
+    preserveAspect: 0
+    imageType: 0
+    fillCenter: 1
+    fillMethod: 4
+    origin360: 0
+    origin180: 0
+    origin90: 0
+    originHorz: 0
+    originVert: 0
+    fillAmount: 1
+    clockwise: 1
+    syncColor: 1
+    syncSprite: 0
+    syncMaterial: 1
+    syncRaycastTarget: 1
+    syncPreserveAspect: 1
+    syncImageType: 1
+    syncFillCenter: 1
+    syncFillMethod: 1
+    syncOrigin360: 1
+    syncOrigin180: 1
+    syncOrigin90: 1
+    syncOriginHorzontal: 1
+    syncOriginVertical: 1
+    syncFillAmount: 1
+    syncClockwise: 1
+  - displayOrder: 11
+    previousOrder: 0
+    styleName: Purple Icon
+    maximize: 0
+    color: {r: 1, g: 0.65882355, b: 0.9490196, a: 1}
+    sprite: {fileID: 0}
+    material: {fileID: 0}
+    raycastTarget: 1
+    preserveAspect: 0
+    imageType: 0
+    fillCenter: 1
+    fillMethod: 4
+    origin360: 0
+    origin180: 0
+    origin90: 0
+    originHorz: 0
+    originVert: 0
+    fillAmount: 1
+    clockwise: 1
+    syncColor: 1
+    syncSprite: 0
+    syncMaterial: 1
+    syncRaycastTarget: 1
+    syncPreserveAspect: 1
+    syncImageType: 1
+    syncFillCenter: 1
+    syncFillMethod: 1
+    syncOrigin360: 1
+    syncOrigin180: 1
+    syncOrigin90: 1
+    syncOriginHorzontal: 1
+    syncOriginVertical: 1
+    syncFillAmount: 1
+    syncClockwise: 1
+  - displayOrder: 12
+    previousOrder: 0
+    styleName: Blue Icon
+    maximize: 0
+    color: {r: 0.65882355, g: 0.88235295, b: 1, a: 1}
+    sprite: {fileID: 0}
+    material: {fileID: 0}
+    raycastTarget: 1
+    preserveAspect: 0
+    imageType: 0
+    fillCenter: 1
+    fillMethod: 4
+    origin360: 0
+    origin180: 0
+    origin90: 0
+    originHorz: 0
+    originVert: 0
+    fillAmount: 1
+    clockwise: 1
+    syncColor: 1
+    syncSprite: 0
+    syncMaterial: 1
+    syncRaycastTarget: 1
+    syncPreserveAspect: 1
+    syncImageType: 1
+    syncFillCenter: 1
+    syncFillMethod: 1
+    syncOrigin360: 1
+    syncOrigin180: 1
+    syncOrigin90: 1
+    syncOriginHorzontal: 1
+    syncOriginVertical: 1
+    syncFillAmount: 1
+    syncClockwise: 1
+  textList:
+  - displayOrder: 0
+    previousOrder: 0
+    styleName: Menu Header
+    maximize: 1
+    font: {fileID: 12800000, guid: 6a2f9783c2b8f744abd954e247c83df9, type: 3}
+    fontStyle: 0
+    fontSize: 30
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    textMat: {fileID: 0}
+    textAnchor: 4
+    horzWrap: 0
+    vertWrap: 0
+    resizeForBestFit: 1
+    minSize: 10
+    maxSize: 40
+    isRaycastTarget: 1
+    syncFont: 1
+    syncFontStyle: 1
+    syncFontSize: 1
+    syncTextColor: 1
+    syncTexMat: 1
+    syncTextAnchor: 1
+    syncHorizontalWrapMode: 1
+    syncVerticalWrapMode: 1
+    syncBestFit: 1
+    syncRaycastTarget: 1
+  - displayOrder: 1
+    previousOrder: 0
+    styleName: Menu Text
+    maximize: 1
+    font: {fileID: 12800000, guid: ab278f03119faeb4a85b830a2761f729, type: 3}
+    fontStyle: 0
+    fontSize: 18
+    textColor: {r: 0.6603774, g: 0.8825241, b: 1, a: 1}
+    textMat: {fileID: 0}
+    textAnchor: 0
+    horzWrap: 0
+    vertWrap: 0
+    resizeForBestFit: 0
+    minSize: 10
+    maxSize: 40
+    isRaycastTarget: 1
+    syncFont: 1
+    syncFontStyle: 1
+    syncFontSize: 1
+    syncTextColor: 1
+    syncTexMat: 1
+    syncTextAnchor: 1
+    syncHorizontalWrapMode: 1
+    syncVerticalWrapMode: 1
+    syncBestFit: 0
+    syncRaycastTarget: 1
+  - displayOrder: 0
+    previousOrder: 0
+    styleName: UI Labels
+    maximize: 0
+    font: {fileID: 12800000, guid: ab278f03119faeb4a85b830a2761f729, type: 3}
+    fontStyle: 0
+    fontSize: 18
+    textColor: {r: 1, g: 0.65882355, b: 0.950758, a: 1}
+    textMat: {fileID: 0}
+    textAnchor: 3
+    horzWrap: 0
+    vertWrap: 0
+    resizeForBestFit: 0
+    minSize: 10
+    maxSize: 40
+    isRaycastTarget: 1
+    syncFont: 1
+    syncFontStyle: 1
+    syncFontSize: 1
+    syncTextColor: 1
+    syncTexMat: 1
+    syncTextAnchor: 1
+    syncHorizontalWrapMode: 1
+    syncVerticalWrapMode: 1
+    syncBestFit: 1
+    syncRaycastTarget: 1
+  - displayOrder: 3
+    previousOrder: 0
+    styleName: Message Text
+    maximize: 0
+    font: {fileID: 12800000, guid: ab278f03119faeb4a85b830a2761f729, type: 3}
+    fontStyle: 0
+    fontSize: 14
+    textColor: {r: 0.65882355, g: 0.88235295, b: 1, a: 1}
+    textMat: {fileID: 0}
+    textAnchor: 3
+    horzWrap: 1
+    vertWrap: 0
+    resizeForBestFit: 0
+    minSize: 10
+    maxSize: 40
+    isRaycastTarget: 0
+    syncFont: 1
+    syncFontStyle: 1
+    syncFontSize: 1
+    syncTextColor: 1
+    syncTexMat: 1
+    syncTextAnchor: 1
+    syncHorizontalWrapMode: 1
+    syncVerticalWrapMode: 1
+    syncBestFit: 1
+    syncRaycastTarget: 1
+  - displayOrder: 0
+    previousOrder: 0
+    styleName: Message Label
+    maximize: 0
+    font: {fileID: 12800000, guid: ab278f03119faeb4a85b830a2761f729, type: 3}
+    fontStyle: 1
+    fontSize: 16
+    textColor: {r: 1, g: 0.65882355, b: 0.9490196, a: 1}
+    textMat: {fileID: 0}
+    textAnchor: 4
+    horzWrap: 1
+    vertWrap: 0
+    resizeForBestFit: 0
+    minSize: 10
+    maxSize: 40
+    isRaycastTarget: 0
+    syncFont: 1
+    syncFontStyle: 1
+    syncFontSize: 1
+    syncTextColor: 1
+    syncTexMat: 1
+    syncTextAnchor: 1
+    syncHorizontalWrapMode: 1
+    syncVerticalWrapMode: 1
+    syncBestFit: 1
+    syncRaycastTarget: 1
+  - displayOrder: 5
+    previousOrder: 0
+    styleName: Text Style 6
+    maximize: 0
+    font: {fileID: 0}
+    fontStyle: 0
+    fontSize: 14
+    textColor: {r: 0, g: 0, b: 0, a: 1}
+    textMat: {fileID: 0}
+    textAnchor: 0
+    horzWrap: 1
+    vertWrap: 0
+    resizeForBestFit: 0
+    minSize: 10
+    maxSize: 40
+    isRaycastTarget: 1
+    syncFont: 1
+    syncFontStyle: 1
+    syncFontSize: 1
+    syncTextColor: 1
+    syncTexMat: 1
+    syncTextAnchor: 1
+    syncHorizontalWrapMode: 1
+    syncVerticalWrapMode: 1
+    syncBestFit: 1
+    syncRaycastTarget: 1
+  buttonList: []
+  toggleList: []
+  sliderList: []
+  inputList: []
+  dropdownList: []
+  tmproTextList: []
+  tmproInputList: []
+  tmproDropdownList: []
